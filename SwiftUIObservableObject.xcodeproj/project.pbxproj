@@ -14,6 +14,8 @@
 		38329A4428ED9DE60016A5A6 /* SwiftUIObservableObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38329A4328ED9DE60016A5A6 /* SwiftUIObservableObjectTests.swift */; };
 		38329A4E28ED9DE60016A5A6 /* SwiftUIObservableObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38329A4D28ED9DE60016A5A6 /* SwiftUIObservableObjectUITests.swift */; };
 		38329A5028ED9DE60016A5A6 /* SwiftUIObservableObjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38329A4F28ED9DE60016A5A6 /* SwiftUIObservableObjectUITestsLaunchTests.swift */; };
+		38329A5D28ED9F190016A5A6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38329A5C28ED9F190016A5A6 /* Person.swift */; };
+		38329A5F28ED9FA70016A5A6 /* ListOfPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38329A5E28ED9FA70016A5A6 /* ListOfPeople.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		38329A4928ED9DE60016A5A6 /* SwiftUIObservableObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIObservableObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38329A4D28ED9DE60016A5A6 /* SwiftUIObservableObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIObservableObjectUITests.swift; sourceTree = "<group>"; };
 		38329A4F28ED9DE60016A5A6 /* SwiftUIObservableObjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIObservableObjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38329A5C28ED9F190016A5A6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		38329A5E28ED9FA70016A5A6 /* ListOfPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPeople.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				38329A3428ED9DE40016A5A6 /* ContentView.swift */,
 				38329A3628ED9DE60016A5A6 /* Assets.xcassets */,
 				38329A3828ED9DE60016A5A6 /* Preview Content */,
+				38329A5C28ED9F190016A5A6 /* Person.swift */,
+				38329A5E28ED9FA70016A5A6 /* ListOfPeople.swift */,
 			);
 			path = SwiftUIObservableObject;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38329A5F28ED9FA70016A5A6 /* ListOfPeople.swift in Sources */,
+				38329A5D28ED9F190016A5A6 /* Person.swift in Sources */,
 				38329A3528ED9DE40016A5A6 /* ContentView.swift in Sources */,
 				38329A3328ED9DE40016A5A6 /* SwiftUIObservableObjectApp.swift in Sources */,
 			);
